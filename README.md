@@ -14,8 +14,8 @@ Each line can contain one command. The commands are the following:
 | --- | --- |
 | let \<register\> = \<expression\>| Sets the value of the register |
 | goto \<line\>| Jumps to the given line |
-| print \<expression\> | Prints the value of the expression to the standar output |
-| input \<register\> | Reads a value from the standar input into the register |
+| print \<expression\> | Prints the value of the expression to the standard output |
+| input \<register\> | Reads a value from the standard input into the register |
 | if (\<expression\>) \<command\> | Standard if statement, runs the command if the expression evaluates to true  |
 
 Mathematical operators that can be used: +,-,*,/,%,^,sqrt(),abs(),log(),sin(),cos(),tan()
